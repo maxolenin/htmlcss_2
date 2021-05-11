@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+
+    <title>Главная страница</title>
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="header__wrapper container">
+            <div>
+                <img class="header__logo" src="img/nav/logo.svg" alt="logo" width="44" height="38">
+                <img class="header__loupe" src="img/nav/loupe.svg" alt="loupe" width="26" height="27">
+            </div>
+
+            <div>
+                <button class="header__menu-button" type="button"><img src="img/nav/burger.svg" alt="menu" width="32"
+                        height="23"></button>
+                <a class="header__link" href="#"><img src="img/nav/account.svg" alt="sign in" width="29"
+                        height="29"></a>
+                <a class="header__link" href="#"><img src="img/nav/cart.svg" alt="cart" width="32" height="29"></a>
+            </div>
+            <nav class="header__navigation">
+                <h2 class="header__navigation-title">menu</h2>
+                <ul class="header__navigation-list">
+                    <li class="header__navigation-item navigation-item">
+                        <a class="navigation-item__link" href="">man</a>
+                        <ul class="navigation-item__sublist">
+                            <li><a class="navigation-item__sublist-link" href="#">accessories</a></li>
+                            <li><a class="navigation-item__sublist-link" href="#">bags</a></li>
+                            <li><a class="navigation-item__sublist-link" href="#">denim</a></li>
+                            <li><a class="navigation-item__sublist-link" href="#">t-shirts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">woman</a>
+                        <ul>
+                            <li><a href="#">accessories</a></li>
+                            <li><a href="#">jackets & coats</a></li>
+                            <li><a href="#">polos</a></li>
+                            <li><a href="#">t-shirts</a></li>
+                            <li><a href="#">shirts</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="">kids</a>
+                        <ul>
+                            <li><a href="#">accessories</a></li>
+                            <li><a href="#">jackets & coats</a></li>
+                            <li><a href="#">polos</a></li>
+                            <li><a href="#">t-shirts</a></li>
+                            <li><a href="#">shirts</a></li>
+                            <li><a href="#">bags</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <div class="registration__head">
+                <div class="registration__head container">
+                    <h2 class="registration__head--text">
+                        registration
+                    </h2>
+
+                </div>
+
+
+            </div>
+        </section>
+
+        <section>
+            <div class="registration container">
+                <div class="registration__form">
+                    <form action="#">
+                        <p>Your Name</p>
+                        <input type="text" placeholder="First Name">
+                        <input type="text" placeholder="Last Name">
+
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+
+                        <p>Login details</p>
+                        <input type="email" placeholder="Email">
+                        <input type="password" placeholder="Password">
+                        <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
+                            lowercase letters</p>
+
+                        <button type="submit">join now</button>
+                    </form>
+                </div>
+
+                <div class="registration__text">
+                    <h3>
+                        LOYALTY HAS ITS PERKS
+                    </h3>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <section>
+            <div class="footer__bottom">
+
+                <div class="footer__bottom--flex container">
+                    <div class="footer__bottom--main">
+                        <img class="footer__bottom-image" src="img/subscribe_woman.png" alt="contact" width="96px"
+                            height="96px">
+                        <p class="footer__bottom-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                            pulvinar purus condimentum“</p>
+                    </div>
+
+                    <div class="footer__bottom--subscribe">
+                        <div class="footer__bottom--subscribetext">
+                            <h2 class="footer__bottom-header">SUBSCRIBE</h2>
+                            <p class="footer__bottom-headersubtext">FOR OUR NEWLETTER AND PROMOTION</p>
+                        </div>
+
+                        <div class="footer__bottom--form">
+                            <form action="#">
+                                <input class="footer__bottom form__input" type="email" placeholder="Enter Your Email">
+                                <button class="footer__bottom form__button" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__bottom--copy">
+                    <div class="footer__bottom--copy container">
+                        <div class="footer__bottom--allrights">
+                            <p>&copy 2021 Brand All Rights Reserved.</p>
+                        </div>
+
+                        <div class="footer__bottom--social">
+                            <a href="#"><img src="img/social/fb.png" alt="facebook"></a>
+                            <a href="#"><img src="img/social/in.png" alt="instagram"></a>
+                            <a href="#"><img src="img/social/pi.png" alt="pinterest"></a>
+                            <a href="#"><img src="img/social/tw.png" alt="twitter"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </footer>
+
+</body>
+
+</html>

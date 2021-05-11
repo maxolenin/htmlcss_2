@@ -371,3 +371,27 @@ font-size: 16px;
 line-height: 19px;
 color: #FBFBFB;
 }
+
+.registration__head {
+    height: 148px;
+    background: #F8F3F4;
+}
+
+.registration__head--text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #F16D7F;
+    text-transform: uppercase;
+    padding-top: 59px;
+}
+
+.registration {
+    display: flex;
+    justify-content: space-between;
+}
+
+.registration__form {
+
+}
