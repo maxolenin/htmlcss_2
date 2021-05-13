@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
 
 
-    <title>Главная страница</title>
+    <title>Регистрация</title>
 </head>
 
 <body>
@@ -84,32 +84,62 @@
         </section>
 
         <section>
-            <div class="registration container">
-                <div class="registration__form">
-                    <form action="#">
-                        <p>Your Name</p>
-                        <input type="text" placeholder="First Name">
-                        <input type="text" placeholder="Last Name">
+            <div class="container">
+                <div class="registration__main">
+                    <div class="registration">
+                        <form class="registration__form" action="#">
+                            <label for="name" class="registration__form label__header">Your Name</label>
+                            <ul>
+                                <li class="registration__form input__field">
+                                    <input class="input__field--area" type="text" name="name" placeholder="First Name">
+                                </li>
+                                <li class="registration__form input__field">
+                                    <input class="input__field--area" type="text" name="name" placeholder="Last Name">
+                                </li>
+                            </ul>
 
-                        <input type="radio" name="gender" id="male">
-                        <label for="male">Male</label>
-                        <input type="radio" name="gender" id="female">
-                        <label for="female">Female</label>
+                            <!-- выравнить текст вертикально по центру с чекбоксом-->
+                            <div class="registration__form registration__gender">
+                                <div>
+                                    <input class="registration__gender-radio" type="radio" name="gender" id="male">
+                                    <label class="registration__gender-label" for="male">Male</label>
+                                </div>
+                                <div>
+                                    <input class="registration__gender-radio" type="radio" name="gender" id="female">
+                                    <label class="registration__gender-label" for="female">Female</label>
+                                </div>
+                            </div>
 
-                        <p>Login details</p>
-                        <input type="email" placeholder="Email">
-                        <input type="password" placeholder="Password">
-                        <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and
-                            lowercase letters</p>
+                            <label for="signin" class="registration__form label__header">Login details</label>
+                            <ul>
+                                <li class="registration__form input__field">
+                                    <input class="input__field--area" type="email" name="signin" placeholder="Email">
+                                </li>
+                                <li class="registration__form input__field">
+                                    <input class="input__field--area" type="password" name="signin"
+                                        placeholder="Password">
+                                </li>
+                            </ul>
 
-                        <button type="submit">join now</button>
-                    </form>
-                </div>
+                            <p class="registration__form password__requirement">Please use 8 or more characters, with at
+                                least 1
+                                number and a mixture of uppercase and
+                                lowercase letters</p>
 
-                <div class="registration__text">
-                    <h3>
-                        LOYALTY HAS ITS PERKS
-                    </h3>
+                            <!-- ВЫРОВНЯТЬ ТЕКСТ В КНОПКЕ И СТРЕЛКУ ПО ЦЕНТРУ ВЕРТИКАЛЬНО -->
+                            <div class="registration__form join__now">
+                                <button type="submit" class="registation__form join__now-button">join now</button>
+                                <img class="registration__form join__now-arrow" src="img/registration/join_arrow.png"
+                                    alt="join">
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="registration__text">
+                        <h3>
+                            LOYALTY HAS ITS PERKS
+                        </h3>
+                    </div>
                 </div>
 
             </div>
